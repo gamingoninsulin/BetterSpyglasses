@@ -1,0 +1,7 @@
+name: BetterSpyglasses
+version: '0.5-SnapShot'
+main: io.github.gamingoninsulin.BetterSpyglasses
+api-version: 1.18
+authors: [ GamingOnInsulin ]
+description: Makes Better Spyglasses in to minecraft Multiplayer (Very OP)
+website: https://gamingoninsulin.github.io/BetterSpyglasses/
