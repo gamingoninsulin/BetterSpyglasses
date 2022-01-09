@@ -6,7 +6,7 @@ Now you are sondering what van you do with this plugin.
 I shall explain!.
 <br>
 Whith this plugin you can make the Spyglasses with the ores.
-<br><br>
+<br><hr><br>
 You need 8 pieces of the ores list. And 1 normal spyglass
 <br><br>
 Ores list:
