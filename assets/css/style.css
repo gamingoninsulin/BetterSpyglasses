@@ -10,6 +10,9 @@ html {
 body {
 	margin: 0
 }
+div p {
+  text-align: center;
+}
 
 article,
 aside,
