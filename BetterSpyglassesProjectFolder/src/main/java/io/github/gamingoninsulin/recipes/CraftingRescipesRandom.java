@@ -9,15 +9,19 @@ import org.bukkit.inventory.ShapelessRecipe;
 
 public class CraftingRescipesRandom {
 
+    // Blocks
     public static ShapelessRecipe AmethystToBlock;
     public static ShapelessRecipe QuartzToBlock;
 
+    // Normal logs
     public static ShapedRecipe LogToStick1;
     public static ShapedRecipe LogToStick2;
     public static ShapedRecipe LogToStick3;
     public static ShapedRecipe LogToStick4;
     public static ShapedRecipe LogToStick5;
     public static ShapedRecipe LogToStick6;
+    
+    // Stripped logs
     public static ShapedRecipe StrippedLogToStick1;
     public static ShapedRecipe StrippedLogToStick2;
     public static ShapedRecipe StrippedLogToStick3;
@@ -25,9 +29,12 @@ public class CraftingRescipesRandom {
     public static ShapedRecipe StrippedLogToStick5;
     public static ShapedRecipe StrippedLogToStick6;
 
+    //Namespacedkeys
+    // Blocks
     static NamespacedKey NSKAmethystConvert = NamespacedKey.minecraft("convert_amethyst_block");
     static NamespacedKey NSKQuartzConvert = NamespacedKey.minecraft("convert_quartz_block");
-
+    
+    // Normal logs
     static NamespacedKey NSKLogConvert1 = NamespacedKey.minecraft("convert_log_block1");
     static NamespacedKey NSKLogConvert2 = NamespacedKey.minecraft("convert_log_block2");
     static NamespacedKey NSKLogConvert3 = NamespacedKey.minecraft("convert_log_block3");
@@ -35,6 +42,7 @@ public class CraftingRescipesRandom {
     static NamespacedKey NSKLogConvert5 = NamespacedKey.minecraft("convert_log_block5");
     static NamespacedKey NSKLogConvert6 = NamespacedKey.minecraft("convert_log_block6");
 
+    // Stripped logs
     static NamespacedKey NSKStrippedLogConvert1 = NamespacedKey.minecraft("convert_stripped_log_block1");
     static NamespacedKey NSKStrippedLogConvert2 = NamespacedKey.minecraft("convert_stripped_log_block2");
     static NamespacedKey NSKStrippedLogConvert3 = NamespacedKey.minecraft("convert_stripped_log_block3");
@@ -43,23 +51,28 @@ public class CraftingRescipesRandom {
     static NamespacedKey NSKStrippedLogConvert6 = NamespacedKey.minecraft("convert_stripped_log_block6");
 
     public static void init() {
+        // Blocks
         createAmethystToBlock();
         createQuartzToBlock();
+
+        // Normal logs
         createLogtoSticks1();
         createLogtoSticks2();
         createLogtoSticks3();
         createLogtoSticks4();
         createLogtoSticks5();
         createLogtoSticks6();
+        
+        // Stripped logs
         createStrippedLogtoSticks1();
         createStrippedLogtoSticks2();
         createStrippedLogtoSticks3();
         createStrippedLogtoSticks4();
         createStrippedLogtoSticks5();
         createStrippedLogtoSticks6();
-
-
     }
+
+    //#### BLOCKS
 
     public static void createQuartzToBlock() {
         ShapelessRecipe QuartzConvert = new ShapelessRecipe(NSKQuartzConvert, new ItemStack(Material.QUARTZ, 4));
@@ -71,14 +84,16 @@ public class CraftingRescipesRandom {
     }
 
     public static void createAmethystToBlock() {
-        ShapelessRecipe AmethystConvert = new ShapelessRecipe(NSKAmethystConvert, new ItemStack(Material.AMETHYST_CLUSTER, 4));
+        ShapelessRecipe AmethystConvert = new ShapelessRecipe(NSKAmethystConvert, new ItemStack(Material.AMETHYST_SHARD, 4));
 
         AmethystConvert.addIngredient(Material.AMETHYST_BLOCK);
 
         Bukkit.addRecipe(AmethystConvert);
         AmethystToBlock = AmethystConvert;
     }
+
     //#### NORMAL LOGS
+
     // oak log
     public static void createLogtoSticks1(){
         ShapedRecipe LogConvert1 = new ShapedRecipe(NSKLogConvert1, new ItemStack(Material.STICK, 16));
@@ -158,6 +173,7 @@ public class CraftingRescipesRandom {
     }
 
     //#### STRIPPED LOGS
+
     // oak log
     public static void createStrippedLogtoSticks1(){
         ShapedRecipe StrippedLogConvert1 = new ShapedRecipe(NSKStrippedLogConvert1, new ItemStack(Material.STICK, 16));
