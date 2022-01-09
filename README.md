@@ -23,9 +23,9 @@ Ores list:
 <br>
 
 Crafting recipe for all Spyglasses <br>
-X = ore <br>
-# = spyglass
+O = ore <br>
+S = spyglass
 <br><br>
-XXX <br>
-X#X <br>
-XXX <br>
+OOO <br>
+OSO <br>
+OOO <br>
