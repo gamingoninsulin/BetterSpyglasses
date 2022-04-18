@@ -1,15 +1,15 @@
 <H1>What is Better Spyglasses?</H1>
 <br><br>
-<p>Better Spyglasses is a plugin that's adres ver OP Spyglasses.
+<p>Better Spyglasses is a plugin that's adress as very OP Spyglasses.
 <br>
-Now you are sondering what van you do with this plugin.
-I shall explain!.
+Now you are wondering what can you do with this plugin.
+I shall explain!
 <br>
-Whith this plugin you can make the Spyglasses with the ores.
+With this plugin you can make the Spyglasses with the ores.
 <br><hr><br>
 You need 8 pieces of the ores list. And 1 normal spyglass
 <br><br>
-Ores list:
+Current Ores list:
 <br>
 - Coal <br>
 - Lapis Lazuli <br>
